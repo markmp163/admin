@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './styles.module.scss';
-import { useLocation } from 'react-router-dom';
 import { Row, Col } from 'antd';
 
 export default function HeaderComponent() {

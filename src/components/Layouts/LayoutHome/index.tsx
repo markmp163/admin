@@ -19,14 +19,14 @@ export default function LayoutHome({ children }: LayoutHomeProps) {
   useEffect(() => {
     const path = location.pathname;
     if (path === '/') {
-      setTitle('dashboard');
+      setTitle('Dashboard');
     }
     if (path.includes('/add-pair-coin')) {
       setTitle('Add Pair Coin');
     }
 
-    if (path.includes('/add-token')) {
-      setTitle('Add Token');
+    if (path.includes('/token')) {
+      setTitle('Token');
     }
     if (path.includes('/customers')) {
       setTitle('Quản lý khách hàng');
