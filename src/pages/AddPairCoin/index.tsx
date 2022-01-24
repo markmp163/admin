@@ -30,10 +30,12 @@ export default function AddPairCoin() {
   return (
     <LayoutHome>
       <Button onClick={() => setIsModalAddPairCoinVisible(true)}>Add Pair Coin</Button>
+
       <Modal title='Add Pair Coin'
         visible={isModalAddPairCoinVisible}
         onCancel={() => setIsModalAddPairCoinVisible(false)}
         footer={null}>
+
         <Form {...layout}
           name="nest-messages"
           validateMessages={validateMessages}>
